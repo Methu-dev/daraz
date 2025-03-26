@@ -3,6 +3,7 @@ import Nav from './Components/Navbar/Nav'
 import LogoSearchbar from './Components/LoloSearchbar/LogoSearchbar'
 import Carousel from './Components/Carousel/Carousel'
 import TopBanner from './Components/TopBanner/TopBanner'
+import FlashSale from './Components/FlashSale/FlashSale'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <LogoSearchbar />
       <Carousel />
       <TopBanner />
+      <FlashSale />
     </div>
   )
 }
